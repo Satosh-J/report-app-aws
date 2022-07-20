@@ -4,6 +4,7 @@
 https://hh2c2yk7yl.execute-api.us-west-2.amazonaws.com
 
 ### API documentation for Postman is in the repository
+https://github.com/Satosh-J/report-app-aws/blob/master/AWS-Report-Apis.postman_collection.json
 
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
