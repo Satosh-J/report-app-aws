@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "112518cf-21e4-4251-a8a6-3c6887f8abb0",
+		"name": "AWS-Report-Apis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22116608"
+	},
+	"item": [
+		{
+			"name": "items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://hh2c2yk7yl.execute-api.us-west-2.amazonaws.com/items",
+					"protocol": "https",
+					"host": [
+						"hh2c2yk7yl",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "items/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://hh2c2yk7yl.execute-api.us-west-2.amazonaws.com/items/cba813a6-b243-47c0-9e24-1504da9d3766",
+					"protocol": "https",
+					"host": [
+						"hh2c2yk7yl",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"items",
+						"cba813a6-b243-47c0-9e24-1504da9d3766"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "download/doc_type",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://hh2c2yk7yl.execute-api.us-west-2.amazonaws.com/download/pdf",
+					"protocol": "https",
+					"host": [
+						"hh2c2yk7yl",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"download",
+						"pdf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "items",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Antony Moor\",\r\n    \"alias\": \"IronMan\",\r\n    \"species\": \"Human\",\r\n    \"company\": {\r\n        \"name\": \"Marvel\",\r\n        \"team\": \"Avengers\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "https://hh2c2yk7yl.execute-api.us-west-2.amazonaws.com/items",
+					"protocol": "https",
+					"host": [
+						"hh2c2yk7yl",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "items/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://hh2c2yk7yl.execute-api.us-west-2.amazonaws.com/items/cba813a6-b243-47c0-9e24-1504da9d3766",
+					"protocol": "https",
+					"host": [
+						"hh2c2yk7yl",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"items",
+						"cba813a6-b243-47c0-9e24-1504da9d3766"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
